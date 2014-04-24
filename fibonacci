@@ -7,11 +7,12 @@ public class fibonacci {
         System.out.print("Input : ");
         int nilai = input.nextInt();
         System.out.print("Output : ");
+        int hasil=0;
         for (int i=0; i<nilai;i++){
             a=a+b;
             b=a-b;
-            System.out.print(a+" ");
+            hasil = hasil +a;
         }
-        System.out.println("");
+        System.out.println(hasil);
     }
 }
