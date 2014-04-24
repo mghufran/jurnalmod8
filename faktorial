@@ -8,13 +8,14 @@ public class faktorial {
         int nilai = input.nextInt();
         faktorial f = new faktorial();
         System.out.print("Output : ");
-        System.out.print(f.faktorial(nilai));
+        System.out.print("= " +f.faktorial(nilai));
         System.out.println("");
     }
     
     public int faktorial(int b){
         int hasil =1;
         for(int i = b;i>0;i--){
+            System.out.print(i+" x ");
             hasil = hasil * i;
         }
         return hasil;
